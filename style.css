@@ -23,11 +23,12 @@
 	}
 
 	a {
-		color: #629DD1;
-		text-decoration: underline;
+		color: #555f66;
+		text-decoration: none;
 	}
 
 		a:hover {
+			color: #629DD1;
 			text-decoration: none;
 		}
 
@@ -42,6 +43,7 @@
 
 	p {
 		margin: 0 0 2em 0;
+		line-height: 1.5em;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
@@ -977,12 +979,13 @@
 /* Banner */
 
 	#banner {
-		background-color: #666666;
-		background-image: url("banner.jpg");
+		background-color: #333;
+		#background-image: url("banner.jpg");
 		background-size: cover;
 		background-position: center center;
 		background-repeat: no-repeat;
 		color: #d8d8d8;
+		min-height: 200px; 
 		padding: 14em 0;
 		text-align: center;
 		position: relative;
@@ -1001,6 +1004,18 @@
 		#banner .inner {
 			position: relative;
 			z-index: 1;
+		}
+		
+		#banner .inner img {
+			width: 200px;
+			margin-bottom: 30px;
+			border-radius: 15px 50px;
+			-moz-border-radius: 15px 50px;
+			-webkit-border-top-left-radius: 15px;
+			-webkit-border-top-right-radius: 50px;
+			-webkit-border-bottom-right-radius: 15px;
+			-webkit-border-bottom-left-radius: 50;
+			-khtml-border-radius: 30px;
 		}
 
 			#banner .inner :last-child {

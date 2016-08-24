@@ -12,11 +12,6 @@ __pycache__/
 *.json
 *.sqlite3
 
-staticfiles
-*.png
-*.jpg
-*.ico
-
 # C extensions
 *.so
 

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<set xml:id="namedentities" type="closed" xmlns="http://ilk.uvt.nl/folia" conceptlink="http://www.isocat.org/datcat/DC-2275">
+    <class xml:id="time" label="Time Expression" />
+    <class xml:id="loc" label="Location">
+        <class xml:id="loc.city" label="Location - City" />
+        <class xml:id="loc.country" label="Location - Country" />
+        <class xml:id="loc.province" label="Location - Province">
+        <class xml:id="loc.unspecified" label="Location - Unspecified" />
+    </class>
+    <class xml:id="damage" label="Damage" >
+        <class xml:id="damage.death" label="Damage - Death" />
+        <class xml:id="damage.fin" label="Damage - Financial" />
+        <class xml:id="damage.inf" label="Damage - General Infrastructure" />
+        <class xml:id="damage.transport" label="Damage - Transport Infrastructure" />
+    </class>
+    <class xml:id="event" label="Event" />
+    <class xml:id="misc" label="Miscellaneous" />
+</set>

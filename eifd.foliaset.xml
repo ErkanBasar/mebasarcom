@@ -3,6 +3,7 @@
     <class xml:id="event.flood" label="Event, Flood Related" />
     <class xml:id="loc.focus" label="Location, Focused Flood" />
     <class xml:id="loc.other" label="Location, Other Flood" />
+    <class xml:id="loc.supp" label="Location, Supplementary" />
     <class xml:id="time" label="Time, Flood Related" />
     <class xml:id="dmg.ppl.kill" label="Damage, People Killed" />
     <class xml:id="dmg.ppl.evac" label="Damage, People Evacuated" />

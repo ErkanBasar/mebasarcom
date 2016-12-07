@@ -16,6 +16,9 @@ def handler500(request):
 	return response
 
 
+def serveKeybase(request):
+	return render(request, 'keybase.txt', {})
+
 
 class Home(View):
 

@@ -23,4 +23,6 @@ urlpatterns = [
 	url(r'^admin/', admin.site.urls),
 
 	url(r'^$', Home.as_view(), name='home'),
+
+	url(r'^keybase.txt$', serveKeybase, name='keybase'),
 ]

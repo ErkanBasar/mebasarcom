@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<set xml:id="stanford-namedentities" type="closed" xmlns="http://ilk.uvt.nl/folia" >
+    <class xml:id="LOCATION" label="LOCATION" />
+    <class xml:id="ORGANIZATION" label="ORGANIZATION" />
+    <class xml:id="DATE" label="DATE" />
+    <class xml:id="MONEY" label="MONEY" />
+    <class xml:id="PERSON" label="PERSON" />
+    <class xml:id="PERCENT" label="PERCENT" />
+    <class xml:id="TIME" label="TIME" />
+</set>

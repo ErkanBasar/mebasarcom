@@ -1,0 +1,54 @@
+==================================================================
+https://keybase.io/mebasar
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://mebasar.com
+  * I am mebasar (https://keybase.io/mebasar) on keybase.
+  * I have a public key ASBP3z_3qKlYCnBCo1xLPh6O-3ZUrKaUfkzRrkPa_bQQkAo
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "0101a22ab89736c1f7160146f1bf21c3e6e0414952157930131f6ad6241fc3bbab6b0a",
+            "host": "keybase.io",
+            "kid": "01204fdf3ff7a8a9580a7042a35c4b3e1e8efb7654aca6947e4cd1ae43dafdb410900a",
+            "uid": "86259cdc787d59d6ef6766f8aff6ee19",
+            "username": "mebasar"
+        },
+        "service": {
+            "hostname": "mebasar.com",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "client": {
+        "name": "keybase.io go client",
+        "version": "1.0.18"
+    },
+    "ctime": 1481145597,
+    "expire_in": 504576000,
+    "merkle_root": {
+        "ctime": 1481145588,
+        "hash": "398a0931d9b3f27693c032b512068ba41f9ea574579812482a7cd482b081dfa08f66aff6fbfb3c352f371a48eb93a67805a1db33195192e0b4adb8b2c5ae1ad8",
+        "seqno": 752043
+    },
+    "prev": "c2079dc352a229e211824f06d017517bf34b57c76a11abeb04cb8089e548b187",
+    "seqno": 17,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgT98/96ipWApwQqNcSz4ejvt2VKymlH5M0a5D2v20EJAKp3BheWxvYWTFAvJ7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTAxYTIyYWI4OTczNmMxZjcxNjAxNDZmMWJmMjFjM2U2ZTA0MTQ5NTIxNTc5MzAxMzFmNmFkNjI0MWZjM2JiYWI2YjBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwNGZkZjNmZjdhOGE5NTgwYTcwNDJhMzVjNGIzZTFlOGVmYjc2NTRhY2E2OTQ3ZTRjZDFhZTQzZGFmZGI0MTA5MDBhIiwidWlkIjoiODYyNTljZGM3ODdkNTlkNmVmNjc2NmY4YWZmNmVlMTkiLCJ1c2VybmFtZSI6Im1lYmFzYXIifSwic2VydmljZSI6eyJob3N0bmFtZSI6Im1lYmFzYXIuY29tIiwicHJvdG9jb2wiOiJodHRwOiJ9LCJ0eXBlIjoid2ViX3NlcnZpY2VfYmluZGluZyIsInZlcnNpb24iOjF9LCJjbGllbnQiOnsibmFtZSI6ImtleWJhc2UuaW8gZ28gY2xpZW50IiwidmVyc2lvbiI6IjEuMC4xOCJ9LCJjdGltZSI6MTQ4MTE0NTU5NywiZXhwaXJlX2luIjo1MDQ1NzYwMDAsIm1lcmtsZV9yb290Ijp7ImN0aW1lIjoxNDgxMTQ1NTg4LCJoYXNoIjoiMzk4YTA5MzFkOWIzZjI3NjkzYzAzMmI1MTIwNjhiYTQxZjllYTU3NDU3OTgxMjQ4MmE3Y2Q0ODJiMDgxZGZhMDhmNjZhZmY2ZmJmYjNjMzUyZjM3MWE0OGViOTNhNjc4MDVhMWRiMzMxOTUxOTJlMGI0YWRiOGIyYzVhZTFhZDgiLCJzZXFubyI6NzUyMDQzfSwicHJldiI6ImMyMDc5ZGMzNTJhMjI5ZTIxMTgyNGYwNmQwMTc1MTdiZjM0YjU3Yzc2YTExYWJlYjA0Y2I4MDg5ZTU0OGIxODciLCJzZXFubyI6MTcsInRhZyI6InNpZ25hdHVyZSJ9o3NpZ8RA76fxL/YyVOSOewt6FhCR3WrEhxCUzmxsKD5+BLIsGUtvg8+OkNgiCDqMFQORImJqDExhVs1spKQZuc85p1oZCKhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIAjMy3roWjXsMOXUlErF9xMBNOxUqT4/sg+EJkIjGkdFo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/mebasar
+
+==================================================================

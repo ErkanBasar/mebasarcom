@@ -13,20 +13,16 @@ https://docs.djangoproject.com/en/1.10/ref/settings/
 import os
 from whitenoise import WhiteNoise
 
-# Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
+SECRET_KEY = os.environ["SECRET_KEY"]
 
-# Quick-start development settings - unsuitable for production
-# See https://docs.djangoproject.com/en/1.10/howto/deployment/checklist/
+if os.environ["DJANGO_ENV"] == 'production':
+    DEBUG = False
+else:
+    DEBUG = True
 
-# SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = os.environ["SECRET_KEY"] 
-
-# SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
-
-ALLOWED_HOSTS = ['localhost','127.0.0.1','mebasar.herokuapp.com','mebasar.com']
+ALLOWED_HOSTS = ['localhost', '127.0.0.1', 'mebasar.herokuapp.com', 'mebasar.com']
 
 
 # Application definition
@@ -128,4 +124,3 @@ STATICFILES_DIRS = [
 ]
 
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
-

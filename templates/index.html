@@ -122,42 +122,34 @@
               </div>
             </div>
             <div class="row multi-columns-row">
-
+              {% for project in project_cards %}
               <div class="col-md-4 col-sm-6 col-xs-12 content-box">
                 <div class="content-box-card">
-                  <img class="content-box-image" src="{% static 'images/content-boxes/dashboard.png' %}" alt="Dashboard">
+                  <img class="content-box-image" src="{% static project.image %}" alt="Dashboard">
                   <div class="content-box-title">
-                    <h3 class="font-serif">FloodTags Dashboard</h3>
+                    <h3 class="font-serif">{{ project.title }}</h3>
                   </div>
                   <div class="content-box-description">
-                    <p>An online dashboard to monitor online media for flood information. The Dashboard shows what people are saying about floods in the media. This enables online monitoring new developments related to floods.</p>
+                    <p>{{ project.description }}</p>
                   </div>
                   <hr>
                   <div class="content-box-footer">
-                    <a href="https://www.floodtags.com/blog/2017/04/24/online-media-on-floods-dashboard/" target="_blank"><i class="fa fa-info-circle" aria-hidden="true"></i></a>
-                    <a href="https://dashboard.floodtags.com" target="_blank"><i class="fa fa-external-link pull-right" aria-hidden="true"></i></a>
+                    {% if project.infoLink %}
+                      <a href="{{ project.infoLink }}" target="_blank"><i class="fa fa-info-circle" aria-hidden="true"></i></a>
+                    {% endif %}
+                    {% if project.github %}
+                      <a href="{{ project.github }}" target="_blank"><i class="fa fa-github " aria-hidden="true"></i></a>
+                    {% endif %}
+                    {% if project.bitbucket %}
+                      <a href="{{ project.bitbucket }}" target="_blank"><i class="fa fa-bitbucket " aria-hidden="true"></i></a>
+                    {% endif %}
+                    {% if project.website %}
+                      <a href="{{ project.website }}" target="_blank"><i class="fa fa-external-link pull-right" aria-hidden="true"></i></a>
+                    {% endif %}
                   </div>
                 </div>
               </div>
-
-              <div class="col-md-4 col-sm-6 col-xs-12 content-box">
-                <div class="content-box-card">
-                  <img class="content-box-image" src="{% static 'images/content-boxes/relevancer.png' %}" alt="Dashboard">
-                  <div class="content-box-title">
-                    <h3 class="font-serif">Relevancer</h3>
-                  </div>
-                  <div class="content-box-description">
-                    <p>Relevancer aims at finding a balance between complexity of a tweet data set and expert needs from this data. The clustering step identify samples of the information groups that are present in the data set. </p>
-                  </div>
-                  <hr>
-                  <div class="content-box-footer">
-                    <a href="http://relevancer.science.ru.nl/about" target="_blank"><i class="fa fa-info-circle" aria-hidden="true"></i></a>
-                    <a href="https://bitbucket.org/hurrial/relevancer/" target="_blank"><i class="fa fa-bitbucket " aria-hidden="true"></i></a>
-                    <a href="http://relevancer.science.ru.nl" target="_blank"><i class="fa fa-external-link pull-right" aria-hidden="true"></i></a>
-                  </div>
-                </div>
-              </div>
-
+              {% endfor %}
             </div>
           </div>
         </section>

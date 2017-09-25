@@ -1635,6 +1635,10 @@ Google map
 	Link Hovers
 --------------------------------------------------------------*/
 
+.fa-github:hover {
+  color: #000;
+}
+
 .fa-bitbucket:hover {
   color: #0747a6;
 }

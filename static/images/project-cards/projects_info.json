@@ -1,0 +1,17 @@
+[
+  {
+    "title": "FloodTags Dashboard",
+    "description": "An online dashboard to monitor online media for flood information. The Dashboard shows what people are saying about floods in the media. This enables online monitoring new developments related to floods.",
+    "image": "images/project-cards/dashboard.png",
+    "infoLink": "https://www.floodtags.com/blog/2017/04/24/online-media-on-floods-dashboard/",
+    "website": "https://dashboard.floodtags.com"
+  },
+  {
+    "title": "Relevancer",
+    "description": "Relevancer aims at finding a balance between complexity of a tweet data set and expert needs from this data. The clustering step identify samples of the information groups that are present in the data set.",
+    "image": "images/project-cards/relevancer.png",
+    "infoLink": "http://relevancer.science.ru.nl/about",
+    "website": "http://relevancer.science.ru.nl",
+    "bitbucket": "https://bitbucket.org/hurrial/relevancer/"
+  }
+]

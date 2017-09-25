@@ -35,9 +35,13 @@ def home(request):
     with open('static/images/background/info.json', 'r') as json_file:
         images_info = json.load(json_file)
 
+    with open('static/images/project-cards/projects_info.json', 'r') as json_file:
+        project_cards = json.load(json_file)
+
     shuffle(images_info)
 
     return render(request, 'index.html', {
         'images_info_str': json.dumps(images_info),
+        'project_cards': project_cards,
         'images_info': images_info,
         })

@@ -9,7 +9,6 @@ __pycache__/
 *.ini
 *.pid
 .env/
-*.json
 *.sqlite3
 
 .DS_Store

@@ -1,0 +1,32 @@
+[
+  {
+    "filePath": "images/background/akyaka.jpg",
+    "location": "Akyaka",
+    "mapUrl": "https://goo.gl/maps/Ah2PatXKaND2"
+  },
+  {
+    "filePath": "images/background/ayder.jpg",
+    "location": "Ayder Yaylası",
+    "mapUrl": "https://goo.gl/maps/73cDuwgL6At"
+  },
+  {
+    "filePath": "images/background/fethiye-tekneler.jpg",
+    "location": "Fethiye",
+    "mapUrl": "https://goo.gl/maps/frPujA1mGjn"
+  },
+  {
+    "filePath": "images/background/oludeniz.jpg",
+    "location": "Ölüdeniz",
+    "mapUrl": "https://goo.gl/maps/frPujA1mGjn"
+  },
+  {
+    "filePath": "images/background/pamukkale.jpg",
+    "location": "Pamukkale",
+    "mapUrl": "https://goo.gl/maps/qX7Bi1YEq482"
+  },
+  {
+    "filePath": "images/background/pokut.jpg",
+    "location": "Pokut",
+    "mapUrl": "https://goo.gl/maps/Gn6Eu5U1t7H2"
+  }
+]

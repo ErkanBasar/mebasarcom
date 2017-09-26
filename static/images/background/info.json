@@ -6,12 +6,12 @@
   },
   {
     "filePath": "images/background/ayder.jpg",
-    "location": "Ayder Yaylası",
+    "location": "Ayder Plateau",
     "mapUrl": "https://goo.gl/maps/73cDuwgL6At"
   },
   {
-    "filePath": "images/background/fethiye-tekneler.jpg",
-    "location": "Fethiye",
+    "filePath": "images/background/akdeniz-kiyilari.jpg",
+    "location": "Mediterranean Coast",
     "mapUrl": "https://goo.gl/maps/frPujA1mGjn"
   },
   {
@@ -28,5 +28,10 @@
     "filePath": "images/background/pokut.jpg",
     "location": "Pokut",
     "mapUrl": "https://goo.gl/maps/Gn6Eu5U1t7H2"
+  },
+  {
+    "filePath": "images/background/azmak.jpg",
+    "location": "Azmak River",
+    "mapUrl": "https://goo.gl/maps/56kJrDW8QMp"
   }
 ]

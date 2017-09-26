@@ -8,10 +8,18 @@
   },
   {
     "title": "Relevancer",
-    "description": "Relevancer aims at finding a balance between complexity of a tweet data set and expert needs from this data. The clustering step identify samples of the information groups that are present in the data set.",
+    "description": "Relevancer aims at finding a balance between complexity of a tweet data set and expert needs from this data. The process can be summarized as creating a need based classifier without sacrificing precision, information, and time.",
     "image": "images/project-cards/relevancer.png",
     "infoLink": "http://relevancer.science.ru.nl/about",
     "website": "http://relevancer.science.ru.nl",
     "bitbucket": "https://bitbucket.org/hurrial/relevancer/"
+  },
+  {
+    "title": "Lama Events",
+    "description": "Lama Events is a calendar application listing events in the near future. The events are detected and selected by a fully automatic procedure in the Dutch Twitter stream.",
+    "image": "images/project-cards/lamaevents.png",
+    "infoLink": "http://lamaevents.cls.ru.nl/about-lama/",
+    "website": "http://lamaevents.cls.ru.nl/",
+    "github": "https://github.com/ErkanBasar/LamaEvents"
   }
 ]

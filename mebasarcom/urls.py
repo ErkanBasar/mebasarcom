@@ -16,4 +16,6 @@ urlpatterns = [
     url(r'^$', views.home, name='home'),
 
     url(r'^keybase.txt$', views.serveKeybase, name='keybase'),
+
+    url(r'^37N38E$', views.age_puzzle, name='age_puzzle'),
 ]

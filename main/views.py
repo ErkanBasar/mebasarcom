@@ -29,6 +29,8 @@ def custom_500(request):
 def serveKeybase(request):
     return render(request, 'keybase.txt', {})
 
+def age_puzzle(request):
+    return render(request, 'age_puzzle.html', {})
 
 def home(request):
 

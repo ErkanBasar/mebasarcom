@@ -1,4 +1,3 @@
-
 <?xml version="1.0" encoding="UTF-8"?>
 <set xml:id="ie-drougth" type="closed" xmlns="http://ilk.uvt.nl/folia" >
     <class xml:id="event.id" label="Event, Flood Related" />

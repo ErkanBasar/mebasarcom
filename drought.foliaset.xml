@@ -1,0 +1,18 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<set xml:id="ie-drougth" type="closed" xmlns="http://ilk.uvt.nl/folia" >
+    <class xml:id="event.id" label="Event, Flood Related" />
+    <class xml:id="loc.event" label="Location, Event" />
+    <class xml:id="loc.supp" label="Location, Supplementary" />
+    <class xml:id="time" label="Time, Flood Related" />
+    <class xml:id="dmg.ppl.kill" label="Damage, People Killed" />
+    <class xml:id="dmg.ppl.evac" label="Damage, People Evacuated" />
+    <class xml:id="dmg.ppl.miss" label="Damage, People Missing" />
+    <class xml:id="dmg.ppl.inj" label="Damage, People Injured" />
+    <class xml:id="dmg.ppl.aff" label="Damage, People Affected" />
+    <class xml:id="dmg.prop" label="Damage, Property" />
+    <class xml:id="dmg.bus" label="Damage, Business Continuity" />
+    <class xml:id="dmg.econ" label="Damage, Economy" />
+    <class xml:id="resp.donat" label="Response, Donation" />
+    <class xml:id="resp.supply" label="Response, Supply" />
+</set>

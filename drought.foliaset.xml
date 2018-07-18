@@ -3,7 +3,8 @@
     <class xml:id="drought" label="Drought Indicator" />
     <class xml:id="event.driver" label="Event Driver" />
     <class xml:id="impact.id" label="Impact Identifier" />
-    <class xml:id="loc.event" label="Location, Event" />
+    <class xml:id="risk.id" label="Risk Identifier" />
+    <class xml:id="loc.event" label="Location Name" />
     <class xml:id="loc.supp" label="Location, Supplementary" />
     <class xml:id="time" label="Time" />
     <class xml:id="imp.ppl.aff" label="Impact, People Affected" />

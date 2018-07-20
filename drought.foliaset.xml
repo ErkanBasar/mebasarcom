@@ -1,17 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <set xml:id="ie-drought" type="closed" xmlns="http://ilk.uvt.nl/folia" >
-    <class xml:id="drought" label="Drought Indicator" />
-    <class xml:id="event.driver" label="Event Driver" />
-    <class xml:id="impact.id" label="Impact Identifier" />
+    <class xml:id="drought.id" label="Drought Indicator" />
     <class xml:id="risk.id" label="Risk Identifier" />
-    <class xml:id="loc.event" label="Location Name" />
+    <class xml:id="driver.event" label="Event - Driver" />
+    <class xml:id="driver.risk" label="Risk - Driver" />
+    <class xml:id="impact.event" label="Event - Impact Identifier" />
+    <class xml:id="impact.risk" label="Risk - Impact Identifier" />
+    <class xml:id="loc.event" label="Event - Location Name" />
+    <class xml:id="loc.risk" label="Risk - Location Name" />
     <class xml:id="loc.supp" label="Location, Supplementary" />
-    <class xml:id="time" label="Time" />
-    <class xml:id="imp.ppl.aff" label="Impact, People Affected" />
-    <class xml:id="imp.ppl.disp" label="Impact, People Displaced" />
-    <class xml:id="imp.prop" label="Impact, Property" />
-    <class xml:id="imp.bus" label="Impact, Business Continuity" />
-    <class xml:id="imp.econ" label="Impact, Economy" />
+    <class xml:id="time.event" label="Event - Time" />
+    <class xml:id="time.risk" label="Risk - Time" />
+    <class xml:id="ppl.aff.event" label="Event - People Affected" />
+    <class xml:id="ppl.aff.risk" label="Risk - People Affected" />
+    <class xml:id="ppl.disp.event" label="Event - People Displaced" />
+    <class xml:id="ppl.disp.risk" label="Risk - People Displaced" />
+    <class xml:id="imp.prop.event" label="Event - Impact on Property" />
+    <class xml:id="imp.prop.risk" label="Risk - Impact on Property" />
+    <class xml:id="bus.con.event" label="Event - Impact on Business Continuity" />
+    <class xml:id="bus.con.risk" label="Risk - Impact on Business Continuity" />
+    <class xml:id="imp.econ.event" label="Event - Impact on Economy" />
+    <class xml:id="imp.econ.risk" label="Risk - Impact on Economy" />
     <class xml:id="resp.donat" label="Response, Donation" />
     <class xml:id="resp.supply" label="Response, Supply" />
 </set>

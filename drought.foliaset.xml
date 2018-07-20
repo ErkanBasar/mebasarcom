@@ -8,7 +8,7 @@
     <class xml:id="impact.risk" label="Risk - Impact Identifier" />
     <class xml:id="loc.event" label="Event - Location Name" />
     <class xml:id="loc.risk" label="Risk - Location Name" />
-    <class xml:id="loc.supp" label="Location, Supplementary" />
+    <class xml:id="loc.supp" label="Location Supplementary" />
     <class xml:id="time.event" label="Event - Time" />
     <class xml:id="time.risk" label="Risk - Time" />
     <class xml:id="ppl.aff.event" label="Event - People Affected" />
@@ -21,6 +21,6 @@
     <class xml:id="bus.con.risk" label="Risk - Impact on Business Continuity" />
     <class xml:id="imp.econ.event" label="Event - Impact on Economy" />
     <class xml:id="imp.econ.risk" label="Risk - Impact on Economy" />
-    <class xml:id="resp.donat" label="Response, Donation" />
-    <class xml:id="resp.supply" label="Response, Supply" />
+    <class xml:id="resp.donat" label="Response as Donation" />
+    <class xml:id="resp.supply" label="Response as Supply" />
 </set>

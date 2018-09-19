@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <set xml:id="ie-drought" type="closed" xmlns="http://ilk.uvt.nl/folia" >
-    <class xml:id="drought.id" label="Drought Indicator" />
+    <class xml:id="drought.id" label="''''Drought Indicator" />
     <class xml:id="risk.id" label="Risk Identifier" />
     <class xml:id="driver.event" label="Event - Driver" />
     <class xml:id="driver.risk" label="Risk - Driver" />
@@ -8,7 +8,7 @@
     <class xml:id="impact.risk" label="Risk - Impact Identifier" />
     <class xml:id="loc.event" label="Event - Location Name" />
     <class xml:id="loc.risk" label="Risk - Location Name" />
-    <class xml:id="loc.supp" label="Location Supplementary" />
+    <class xml:id="loc.supp" label="Supplementary to Location" />
     <class xml:id="time.event" label="Event - Time" />
     <class xml:id="time.risk" label="Risk - Time" />
     <class xml:id="ppl.aff.event" label="Event - People Affected" />

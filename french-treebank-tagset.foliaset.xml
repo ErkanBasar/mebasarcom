@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<set xml:id="penn-treebank-tagset" type="closed" xmlns="http://ilk.uvt.nl/folia" >
+<set xml:id="french-treebank-tagset" type="closed" xmlns="http://ilk.uvt.nl/folia" >
     <class xml:id="A" label="Adjective" />
     <class xml:id="ADJ" label="Adjective"/>
     <class xml:id="ADJWH" label="Interrogatif Adjective"/>

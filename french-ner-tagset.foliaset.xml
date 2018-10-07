@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<set xml:id="europeana-namedentities" type="closed" xmlns="http://ilk.uvt.nl/folia" >
+    <class xml:id="I-LIEU" label="LOCATION" />
+    <class xml:id="I-ORG" label="ORGANIZATION" />
+    <class xml:id="I-DATE" label="DATE" />
+    <class xml:id="I-MON" label="MONEY" />
+    <class xml:id="I-PERS" label="PERSON" />
+    <class xml:id="I-PERC" label="PERCENT" />
+    <class xml:id="I-TIME" label="TIME" />
+</set>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<set xml:id="french-treebank-tagset" type="closed" xmlns="http://ilk.uvt.nl/folia" >
+    <class xml:id="ADJ" label="adjective"/>
+    <class xml:id="ADP" label="adposition"/>
+    <class xml:id="ADV" label="adverb"/>
+    <class xml:id="AUX" label="auxiliary"/>
+    <class xml:id="CCONJ" label="coordinating conjunction"/>
+    <class xml:id="DET" label="determiner"/>
+    <class xml:id="INTJ" label="interjection"/>
+    <class xml:id="NOUN" label="noun"/>
+    <class xml:id="NUM" label="numeral"/>
+    <class xml:id="PART" label="particle"/>
+    <class xml:id="PRON" label="pronoun"/>
+    <class xml:id="PROPN" label="proper noun"/> 
+    <class xml:id="PUNCT" label="punctuation"/>
+    <class xml:id="SCONJ" label="subordinating conjunction"/>
+    <class xml:id="SYM" label="symbol"/>
+    <class xml:id="VERB" label="verb"/>
+    <class xml:id="X" label="other"/>
+    <class xml:id="SPACE" label="space"/>
+</set>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<set xml:id="french-treebank-tagset" type="closed" xmlns="http://ilk.uvt.nl/folia" >
+<set xml:id="fr-pos-spacy-tagset" type="closed" xmlns="http://ilk.uvt.nl/folia" >
     <class xml:id="ADJ" label="adjective"/>
     <class xml:id="ADP" label="adposition"/>
     <class xml:id="ADV" label="adverb"/>

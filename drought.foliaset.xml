@@ -15,8 +15,6 @@
     <class xml:id="ppl.aff.risk" label="Risk - People Affected" />
     <class xml:id="ppl.disp.event" label="Event - People Displaced" />
     <class xml:id="ppl.disp.risk" label="Risk - People Displaced" />
-    <class xml:id="imp.prop.event" label="Event - Impact on Property" />
-    <class xml:id="imp.prop.risk" label="Risk - Impact on Property" />
     <class xml:id="bus.con.event" label="Event - Impact on Business Continuity" />
     <class xml:id="bus.con.risk" label="Risk - Impact on Business Continuity" />
     <class xml:id="imp.econ.event" label="Event - Impact on Economy" />

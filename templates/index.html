@@ -68,20 +68,26 @@
       <!-- <section class="bg-dark-30 showcase-page-header module parallax-bg vh-100 navbar-scroll-transparent"
                 data-background="{% static 'images/background/pamukkale-2.jpg' %}"> -->
       <section class="home-section home-parallax home-fade home-full-height" id="home">
-        <div class="hero-slider">
-          <ul class="slides">
-            {% for image in images_info %}
-            <li class="bg-dark-30 bg-dark" style="background-image:url({% static 'images/background/akyaka.jpg' %});">
-              <div class="titan-caption">
-                <div class="caption-content">
-                  <img src="{% static 'images/profile/mebasar.jpg' %}" alt="">
-                  <div class="font-alt mb-40 titan-title-size-4">M. Erkan Başar</div>
-                </div>
-                <a href="{{ image.mapUrl }}"><div class="font-alt pull-right image-location-info">{{ image.location }}</div></a>
-              </div>
-            </li>
-            {% endfor %}
-          </ul>
+        <div class="home-content">
+          <div class="titan-caption">
+            <div class="caption-content">
+              <img src="{% static 'images/profile/mebasar.jpg' %}" alt="">
+              <div class="font-alt mb-40 titan-title-size-4">M. Erkan Başar</div>
+            </div>
+          </div>
+        </div>
+        <ul class="bg-bubbles">
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+        </ul>
         </div>
       </section>
       <div class="main showcase-page">

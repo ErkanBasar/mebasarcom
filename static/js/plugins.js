@@ -150,23 +150,6 @@
 })(jQuery);
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 (function($) {
     $.fn.countTo = function(options) {
         // merge the default plugin settings with the custom options

@@ -1,0 +1,91 @@
+.timeline {
+  white-space: nowrap;
+  overflow-x: scroll;
+  padding: 30px 0 10px 0;
+  position: relative;
+  -ms-overflow-style: none; /* for Internet Explorer, Edge */
+  scrollbar-width: none; /* for Firefox */
+}
+
+.entry {
+  display: inline-block;
+  vertical-align: top;
+  padding: 10px;
+  font-size: 12px;
+  text-align: center;
+  position: relative;
+  width: 33%;
+  min-width: 300px;
+  max-width: 500px;
+  margin: 0px 5px;
+}
+
+.entry img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.entry:after {
+  content: '';
+  display: block;
+  background: #eee;
+  width: 7px;
+  height: 7px;
+  border-radius: 6px;
+  border: 4px solid #080B0F;
+  position: absolute;
+  left: 50%;
+  top: -25px;
+  margin-left: -3px;
+}
+
+.entry:before {
+  content: '';
+  display: block;
+  background: #080B0F;
+  width: 2px;
+  height: 29px;
+  position: absolute;
+  left: 50%;
+  top: -20px;
+  margin-left: 0px;
+  border-radius: 5px;
+}
+
+.bar {
+  height: 4px;
+  background: #eee;
+  width: 100%;
+  position: relative;
+  top: 13px;
+  left: 0;
+}
+
+
+.entry.current {
+  margin-left: 33%;
+}
+
+.entry .content-box-card {
+  border: 1px dashed black;
+}
+
+.entry .content-box-card .content-box-description {
+  text-align: center !important;
+}
+
+.entry.current .content-box-card {
+  height: 300px;
+  border:1px solid;
+  box-shadow: 20px 20px 10px rgba(0, 0, 0, 0.15) !important;
+}
+
+
+.entry .content-box-card:hover {
+  transform: translate3d(0, -0, 0) !important;
+  -webkit-transform: translate3d(0, 0, 0) !important;
+  box-shadow: 0 23px 40px rgba(0, 0, 0, 0) !important;
+  box-shadow: 20px 20px 10px rgba(0, 0, 0, 0.15) !important;
+}

@@ -2649,10 +2649,10 @@ Google map
   background-color: rgba(2, 2, 2, 0.7);
 }
 
-.showcase-page .content-box {
+/* .showcase-page .content-box {
   display: block;
   margin-bottom: 45px;
-}
+} */
 
 .showcase-page .content-box .content-box-card {
   border-radius: 6px;
@@ -2999,4 +2999,76 @@ Google map
   right: 2%;
   font-size: 1.2em;
   color: white;
+}
+
+
+/* Common Mouse Scroll Ele */
+.scroll-down {
+  position: absolute;
+  bottom: 50px;
+  left: 50%;
+  width: 75px;
+  height: 80px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  bottom: 0;
+  transform: translateX(-50%);
+}
+.scroll-down>label {
+  pointer-events: none;
+  font-family: monospace;
+  font-weight: 600;
+  font-size: 1.1rem;
+  color: #dffffd;
+}
+
+.scroll-down span {
+  position: absolute;
+  display: inline-block;
+  top: 20px;
+  height: 25px;
+  width: 2px;
+  left: calc(50% - 1px);
+  animation: animateArrows 1.25s infinite linear;
+}
+@keyframes  animateArrows {
+  0%, 40%, 100% {
+    opacity: 0;
+  }
+  75% {
+    opacity: 1;
+  }
+}
+.scroll-down span:first-child {
+  top: 35px;
+  animation-delay: 0s;
+}
+.scroll-down span:nth-child(2) {
+  top: 35px;
+  animation-delay: .33s;
+}
+.scroll-down span:last-child {
+  top:  50px;
+  animation-delay: .66s;
+}
+.scroll-down span::before,
+.scroll-down span::after {
+  position: absolute;
+  content: "";
+  width: 3px;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: #fff;
+  border-radius: 3px;
+}
+.scroll-down span::before {
+  transform-origin: bottom;
+  transform: rotate(-45deg);
+}
+.scroll-down span::after {
+  transform-origin: bottom;
+  margin-left: -1px;
+  transform: rotate(45deg);
 }

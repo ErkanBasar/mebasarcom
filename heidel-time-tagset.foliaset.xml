@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<set xml:id="heidel-time-tagset" type="closed" xmlns="http://ilk.uvt.nl/folia" >
-    <class xml:id="DATE" label="DATE" />
-    <class xml:id="TIME" label="TIME" />
-    <class xml:id="DURATION" label="DURATION" />
-    <class xml:id="SET" label="SET" />
-</set>
